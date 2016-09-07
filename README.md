@@ -3,6 +3,10 @@
 Frappe and ERPNext Slack Notification Integration
 
 ## How to Install
+Install App
+1. bench get-app slack https://github.com/bailabs/slack.git
+2. bench install-app slack
+
 
 In Slack Menu
 1. Go to Apps & Integration Menu
