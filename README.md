@@ -28,3 +28,6 @@ In Frappe/ERPNext Menu
 #### License
 
 MIT
+
+Bai Web and Mobile Labs
+https://bai.ph
