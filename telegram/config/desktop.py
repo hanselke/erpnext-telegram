@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Slack Integration ",
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"module_name": "Telegram Integration ",
+			"color": "blue",
+			"icon": "octicon octicon-radio-tower",
 			"type": "module",
-			"label": _("Slack Integration ")
+			"label": _("Telegram Integration ")
 		}
 	]

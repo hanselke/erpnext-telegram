@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include slack *.css
-recursive-include slack *.csv
-recursive-include slack *.html
-recursive-include slack *.ico
-recursive-include slack *.js
-recursive-include slack *.json
-recursive-include slack *.md
-recursive-include slack *.png
-recursive-include slack *.py
-recursive-include slack *.svg
-recursive-include slack *.txt
-recursive-exclude slack *.pyc
+recursive-include telegram *.css
+recursive-include telegram *.csv
+recursive-include telegram *.html
+recursive-include telegram *.ico
+recursive-include telegram *.js
+recursive-include telegram *.json
+recursive-include telegram *.md
+recursive-include telegram *.png
+recursive-include telegram *.py
+recursive-include telegram *.svg
+recursive-include telegram *.txt
+recursive-exclude telegram *.pyc

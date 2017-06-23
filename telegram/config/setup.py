@@ -6,13 +6,13 @@ def get_data():
     return [
         {
             "label": _("Integrations"),
-            "icon": "octicon octicon-cloud-upload",
+            "icon": "octicon octicon-radio-tower",
             "items": [
                 {
                     "type": "doctype",
-                    "name": "Slack Settings",
-                    "label": _("Slack Settings"),
-                    "description": _("Slack notification     for Frappe and ERPNext"),
+                    "name": "Telegram Settings",
+                    "label": _("Telegram Settings"),
+                    "description": _("Telegram notification     for Frappe and ERPNext"),
                     "hide_count": True
                 }
             ]
