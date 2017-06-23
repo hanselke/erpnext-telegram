@@ -1,52 +1,36 @@
-## Slack Integration 
+## Telegram Integration 
 
-Frappe and ERPNext Slack Notification Integration
+Frappe and ERPNext Telegram Notification Integration
 
 ## How to Install
 Install App
 
-1. bench get-app slack https://github.com/bailabs/slack.git
+1. bench get-app telegram https://github.com/hanselke/erpnext-telegrambot
 
-2. bench install-app slack
-
-
-
-
-In Slack Menu
-
-1. Go to Apps & Integration Menu
-
-2. Search and Select "Incoming WebHooks" App
-
-3. Click Add Configuration
-
-4. Select or Create a channel where you want to be notified
-
-5. Click Add Incoming Webhooks Integration
-
-6. Take note the Webhook URL value
-
-    * It should look like this: https://hooks.slack.com/services/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
+2. bench install-app telegram
 
 
 
 In Frappe/ERPNext Menu
 
-1. Go to Setup -> Slack Settings
+1. Go to Setup -> Telegram Settings
 
 2. Set the the values.
 
     Mandatory Fields:
 
-      * Webhook URL  = copy the value that you get in Slack Incomming Webhooks Integration ( Step 6 in Slack Menu Section )
+    Botname: without the @
+    API KEY: Get it from botfather
+    ChatID: Person or group chat ID to relay all doctype events to
 
-      * Channel = copy the value the one you select or create in ( Step 4 in Slack Menu Section )
 
 #### License
 
 MIT
 
+Original code modified from https://github.com/bailabs/slack
+Thanks to Bai labs!
 
-Bai Web and Mobile Labs
+OpenB Networks
 
-https://bai.ph
+https://www.openb.net
