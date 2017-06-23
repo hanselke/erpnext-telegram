@@ -81,8 +81,8 @@ doc_events = {
 		"on_update": "telegram.events.notify_telegram",
 		"on_cancel": "telegram.events.notify_telegram",
 		"on_trash": "telegram.events.notify_telegram",
-		"on_submit":"telegram.events.notify_telegram",
-		"on_update_after_submit":"telegram.events.notify_telegram"
+		"on_submit": "telegram.events.notify_telegram",
+		"on_update_after_submit": "telegram.events.notify_telegram"
 	}
 }
 
