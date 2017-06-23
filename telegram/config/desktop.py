@@ -5,7 +5,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Telegram Integration ",
+			"module_name": "Telegram",
 			"color": "blue",
 			"icon": "octicon octicon-radio-tower",
 			"type": "module",
