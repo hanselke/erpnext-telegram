@@ -19,7 +19,6 @@ In Frappe/ERPNext Menu
 
     Mandatory Fields:
 
-    Botname: without the @
     API KEY: Get it from botfather
     ChatID: Person or group chat ID to relay all doctype events to
 
